@@ -26,7 +26,7 @@ body {
 }
 
 .top-nav {
-    padding-top: 56px;
+    padding: 56px 0;
     display: flex;
     color: #ffffff;
     justify-content: space-between;
@@ -65,4 +65,38 @@ body {
 }
 .btn-log-in:hover {
     opacity: 0.8;
+}
+
+.our-blog {
+    padding: 56px 0 160px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #0A2640;
+}
+
+.our-blog span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+
+.our-blog h1 {
+    margin: auto;
+    margin-top: 12px;
+    width: 842px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+}
+
+.our-blog p {
+    margin: auto;
+    margin-top: 17.5px;
+    width: 745.37px;
 }
